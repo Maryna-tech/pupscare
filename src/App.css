@@ -1,0 +1,1285 @@
+#root {
+  text-align: center;
+}
+
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgba(247,247,247,0.9);
+  height: 100%;
+}
+
+.logo {
+  height: 4em;
+  border-radius: 48%;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 3em pink);
+}
+
+button{
+  font-size: 1.0rem;
+  color: #fafbfc;
+  padding: 8px 22px;
+  border-radius: 6px;
+  background-color: #0f75ae;
+  cursor: pointer;
+  height: 48px;
+  border: none;
+  transition: all 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+button:active{
+  transform: scale(0.96);
+}
+
+.p-1.container,.p-2.container, .p-3.container, .p-4.container, .p-5.container{
+  display: flex;
+  flex-direction: column;
+}
+
+header.p-1{
+  background-image: url("assets/happy_dogs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  width: 67vw;
+  height: 100vh;
+  margin-top: 6px;
+  border-radius: 15px;
+}
+
+h1.p-1 .text{
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  letter-spacing: -0.15em;
+  font-weight: 700;
+}
+
+ul li{
+  font-weight: 700;
+  width: 23vw;
+  height: 10vh;
+  border-radius: 15px;
+  list-style-type: none; 
+  margin-top: 5px;
+  margin-left: 795px;
+  padding-top: 15px;
+  color: purple;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  border: #FF2DF1 solid 2px;
+}
+
+.animate__animated.animate__zoomIn{
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeInLeftBig{
+  --animate-duration: 2s;
+  --animate-delay: 1s;
+}
+
+.relative{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+
+.relative .text{
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  font-weight: 300;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.mt-1 .text{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  color:#0f75ae;
+}
+
+.sub-title{
+  font-size: 18px;
+  color: purple;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.booking{
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+  transition: all .3s ease-out;
+  font-size: 16px;
+  min-height: 48px;
+  border-radius: 50px;
+  color: #fff;
+  background: linear-gradient(rgb(169, 84, 31) 0%, rgb(134, 149, 0) 100%);
+  border: 2px solid #006db5;
+  box-shadow: 0 0 0 0 transparent;
+  padding: 9px 28px 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 24px;
+  width: 100%;
+  max-width: 300px;
+  font-weight: 700;
+}
+
+video{
+  width: 80vw;
+  height: 80vh;
+  object-fit: cover;
+  margin-left: 100px;
+}
+
+.container .max-auto{
+  background-color: #d71f84;
+  padding: 24px;
+  border-radius: 15px;
+}
+
+.discount-page{
+  background-color:#FFFF00;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discount{
+  font-size: 35px;
+  background-color: #FFFF00;
+}
+
+h5{
+  font-size: 30px;
+  font-weight: 600;
+  color: purple;
+}
+
+.footer-container .footer__main {
+  display: flex;
+  flex-direction: column;
+  background: lightblue;
+  padding-top: 20px;
+}
+
+.footer-container .footer {
+  max-width: 100%;
+  padding: 0;
+  font-size: 16px;
+}
+
+.footer {
+  width: 100%;
+  margin: auto;
+  padding: 0 10px;
+  color: #000000;
+}
+
+.footer-container .footer__main-links {
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.footer-link-manage-cookies{
+  background: linear-gradient(rgb(169, 84, 31) 0%, rgb(134, 149, 0) 100%);
+  border: 0px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  width:20%;
+}
+
+.card-payment{
+  margin: 3px;
+}
+
+.grid-row{
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.card_service {
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+  width: 30%;
+  background-color: rgba(247,247,247,0.9);
+  color:#CF00F5;
+  margin: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card_service:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: translateY(-10px);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.container p{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 200;
+  color:#000000;
+}
+
+.price{
+  padding: 5px;
+  color: orange;
+  font-weight: 700;
+}
+
+.change{
+  background: linear-gradient(rgb(169, 84, 31) 0%, rgb(134, 149, 0) 100%);
+  border: 0px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  height: 48px;
+  margin: 13px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  width:10%;
+}
+
+header.p-4{
+  font-size: large;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container-booking {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f9f9;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Main Booking Form */
+.booking-form {
+  text-align: center;
+  padding: 20px;
+}
+
+.booking-form h2 {
+  font-size: 2.5em;
+  color: #d71f84;
+  margin-bottom: 2px;
+}
+
+.booking-form p {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 1px;
+  color: #ffffff;
+}
+
+/* Form Fields */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: 800;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #4caf50;
+  outline: none;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+/* Buttons */
+.btn {
+  background:#00BFFF;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #4169E1;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #f1f1f1;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.footer h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000;
+}
+
+.footer p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 14px;
+  color: #000;
+}
+
+.booking-form{
+  background-image: url("assets/caring.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 555px;
+  height: 820px;
+  margin-left: 250px;
+}
+
+/* Overall form container */
+.form-container {
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Form Title */
+.form-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form fields */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Prevents content overflow */
+  transition: border 0.3s ease;
+}
+
+/* Textarea specific styles */
+.form-textarea {
+  min-height: 120px;
+  resize: vertical; /* Allows vertical resizing only */
+}
+
+/* Focus and hover effects */
+.form-input:focus,
+.form-textarea:focus {
+  border: 1px solid #693382;
+  outline: none;
+  box-shadow: 0 0 8px rgba(76, 86, 175, 0.5);
+}
+
+/* Error message */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Submit button */
+.form-button {
+  width: 100%;
+  padding: 14px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+  background-color: #8F87F1; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-button:hover {
+  background-color: #693382;
+}
+
+/* Container Styling */
+.reviews-container {
+  max-width: 1100px;
+  height: 95vh;
+  margin-top: 20px;
+  padding: 50px 5px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background: #b1f2d0;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #1e3a8a; 
+  margin-bottom: 10px;
+}
+
+/* Grid layout for reviews */
+.reviews-grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 12px;
+}
+
+/* Individual Review Cards */
+.review-card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.review-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Reviewer Photo */
+.review-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid #1e90ff;
+}
+
+/* Reviewer Name */
+.review-card h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Star Rating */
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.filled-star {
+  color: #ffc107;
+  font-size: 24px;
+}
+
+.empty-star {
+  color: #ccc;   
+  font-size: 24px;
+}
+
+/* Review Text */
+.review-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+/* Container styles */
+.store-container {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("assets/dog-shopping.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  height:1100px;
+  padding: 10px;
+}
+
+.title-shop {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+.buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.change {
+  background: #007bff;
+  color: white;
+  padding: 10px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 130px;
+}
+
+.change:hover {
+  background: #0056b3;
+}
+
+/* Grid and Card styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  transition:transform 0.3s;
+  width:200px;
+}
+
+.product{
+width:40% ;
+margin-left:150px;
+margin-top:10px;
+border: none;
+background-color: pink;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.product-image {
+  width: 60%;
+  border-bottom: 1px solid #eee;
+}
+
+.card h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Cart Section */
+.cart {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin-top: 150px;
+}
+
+.cart h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  border-bottom: 1px solid #eee;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #555;
+}
+
+.remove-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  height: 20px;
+  margin-left: 100px;
+  font-size: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #ff1a1a;
+}
+
+.container-contact{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  gap:6px ;
+  background-image: url("assets/professional_grooming.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  margin-top: 6px;
+  width: 60%;
+  border: 2px solid #006db5;
+  border-radius: 15px;
+}
+
+.contact-section{
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+  transition: all .3s ease-out;
+  font-size: 18px;
+  min-height: 48px;
+  border-radius: 15px;
+  color: #fff;
+  background: linear-gradient(rgb(169, 84, 31) 0%, rgb(134, 149, 0) 100%);
+  border: 2px solid #006db5;
+  box-shadow: 0 0 0 0 transparent;
+  padding: 9px 28px 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 24px;
+  width: 100%;
+  max-width: 300px;
+  font-weight: 700;
+  margin-left: 800px;
+}
+
+.contact-section p{
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.contact-section img{
+  margin-top: 8px;
+}
+
+.title {
+  font-size: 36px;
+  color: #fff;
+  background-color: #0056b3;
+}
+
+.terms li{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color:#000000;
+  width:100%;
+  margin-left: 5px;
+  border:none;
+  font-weight: 200;
+  min-height: fit-content;
+}
+
+.info{
+  color: #333;
+  font-size: 15px;
+  font-weight: 400;
+  padding:10px ;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  body{
+    display: block;
+  }
+
+  h1.p-1 .text{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -0.10em;
+    margin-top: 100px;
+  }
+  
+  ul li{
+    font-weight: 300;
+    font-size: 13px;
+    width: 20%;
+    height: 59%;
+    border-radius: 10px;
+    margin-left: 410px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  h2{
+    font-size: 2.2em;
+    padding: 10px;
+    margin-top: 12px;
+  }
+  
+  .relative .text{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    padding: 1px;
+  }
+  
+  .mt-1 .text{
+    font-size: 14px;
+  }
+  
+  .booking{
+    font-size: 14px;
+    min-height: 48px;
+    border-radius: 30px;
+    padding: 8px 27px 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 60%;
+    max-width: 200px;
+    font-weight: 500;
+  }
+  
+  video{
+    width: 80vw;
+    height: 60vh;
+    margin-left: 50px;
+  }
+
+  .sub-title{
+    font-size: 16px;
+  }
+
+  .text-content .p{
+    font-size: 15px;
+  }
+
+  .container .max-auto{
+    width: 96%;
+    margin-left: 10px;
+    padding: 18px;
+  }
+
+  .slide-image{
+    width: 70%;
+    height: 70%;
+  }
+
+  .container-booking {
+    max-width: 1023px;
+  }
+
+  .booking-form{
+    width: 555px;
+    height: 800px;
+    margin-left: 190px;
+  }
+
+  .booking-form h2 {
+    font-size: 1.8em;
+  }
+
+  .booking-form p{
+    font-size: 16px;
+  }
+
+  .booking-advice p{
+    font-size: 13px;
+    padding: 4px;
+  }
+
+  .reviews-container {
+    max-width: 100%;
+    height: 490px;
+    margin-top: 5px;
+    padding: 25px 5px;
+  }
+
+  .review-photo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .review-card h3 {
+    font-size: 14px;
+  }
+
+  .filled-star {
+    font-size: 15px;
+  }
+
+  .empty-star {
+    font-size: 15px;
+  }
+
+  .review-text {
+    font-size: 13px;
+  }
+
+  .booking-advice h3{
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  .product-image {
+    min-height: 45%;
+  }
+
+  .clipping-img{
+    height: 210px;
+  }
+
+  .container p{
+    font-size: 13px ;
+  }
+
+  .price{
+    font-size: 14px;
+    padding: 2px;
+    font-weight: 300;
+  }
+
+  .container-contact{
+    width: 100%;
+    height: 50%;
+    margin-left: 0px;
+  }
+
+  .contact-section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 3px;
+    font-size: 14px;
+    min-height: 40px;
+    line-height: 14px;
+    max-width: 230px;
+    max-height: 750px;
+    font-weight: 300;
+    margin-left: 40px;
+  }
+
+  .image .logo{
+    margin-top: 10px;
+    min-height: 90px;
+    min-width: 30px;
+  }
+
+  .form-title{
+    font-size: 22px;
+  }
+
+  .discount{
+    font-size: 28px;
+  }
+
+  .info{
+    padding: 16px;
+    margin-top: 5px;
+  }
+
+  .card{
+    width: 70%;
+    height: 250px;
+  }
+
+  .product-image{
+    height: 50px;
+  }
+
+  .card h3{
+    font-size: 14px;
+  }
+
+  .change{
+    padding:5px;
+  }
+
+  .footer-container .footer {
+    font-size: 15px;
+  }
+
+  .footer__main-icons,
+  .footer__main-links {
+    gap: 10px;
+  }
+
+  .footer-link {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  header.p-1{
+    width: 700px;
+    height: 570px;
+  }
+
+  ul li{
+    margin-bottom: 1px;
+  }
+  
+  .form-container {
+    padding: 20px;
+  }
+
+  .popup{
+    width: 50%;
+    height: 50%;
+  }
+
+  .slick-slide .slide-image{
+    width: 300px;
+  }
+
+  img{
+    width: 200px;
+    height: 220px;
+  }
+
+  .booking-form{
+    width: 500px;
+    height: 790px;
+    margin-left: 110px;
+  }
+
+  .reviews-container {
+    max-width: 750vw;
+    height: 440px;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-card {
+    padding: 20px;
+  }
+
+  .store-container{
+    height: fit-content;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .footer__main-icons .icon{
+    width: 9%;
+    height: fit-content;
+  }
+
+  .card-payment{
+    width: 40px;
+    height: 30px
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  header.p-1{
+    width: 540px;
+    height: 370px;
+    margin-left:none;
+  }
+
+  header.p-1 .text{
+    font-size: 35px;
+    font-weight: 300;
+  }
+
+  .discount-page{
+    margin-left: 220px;
+  }
+
+  video{
+    margin-left: 25px;
+  }
+
+  ul li{
+    font-weight: 200;
+    font-size: 13px;
+    width: 33%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .booking-form  {
+    font-size: 24px;
+    margin-left: 5px;
+  }
+
+  .review-card {
+    padding: 2px;
+  }
+
+  .grid-row{
+    flex-direction: column;
+    margin-left: 80px;
+  }
+
+  .card_service{
+    width: 60%;
+  }
+
+  .form-container{
+    padding: 5px 10px 5px;
+    min-height: 30%;
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+  
+  .footer {
+    height: 50%;
+  }
+}
+
+@media (max-width: 430px) {
+  header.p-1{
+    width: 320px;
+    height: 350px;
+    margin-left: 1px;
+  }
+
+  ul li{
+    width: 140px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .discount-page{
+    margin-left: 10px;
+  }
+
+  video{
+    height: 250px;
+  }
+
+  .card_service{
+    width: fit-content;
+    min-height: fit-content;
+    margin-left: 5px;
+  }
+
+  .term li{
+    width: 60%;
+  }
+
+  .terms li{
+    margin-left: 2px;
+    font-weight: 150;
+    font-size: 10px;
+  }
+  
+  .info{
+    font-size: 10px;
+    font-weight: 150;
+    padding: 5px ;
+  }
+
+  .grid-row{
+    margin-left: 20px;
+  }
+
+  .booking-form{
+    width: 350px;
+    height: 580px;
+    margin-left:0px;
+  }
+
+  .reviews-container {
+    max-width: 350px;
+    height: 320px;
+  }
+
+  .review-card {
+    padding: none;
+  }
+
+  .review-card h3{
+    font-size: 9px;
+    margin-top: 1px;
+  }
+
+  .review-photo {
+    width: 25px;
+    height: 22px;
+    margin-top: 3px;
+  }
+  
+  .filled-star,
+  .empty-star {
+    font-size: 11px;
+    margin-top: 1px;
+  }
+
+  p.review-text {
+    font-size: 7px;
+    font-weight:50;
+  }
+
+  .filled-star {
+    font-size: 15px;
+  }
+
+  .review-text {
+    font-size: 13px;
+  }
+
+  .cart {
+    padding: 15px;
+    width: 370px;
+    margin-top: 10px;
+  }
+
+  .remove-btn {
+    padding: 5px;
+    height: 20px;
+    margin-left: 0px;
+    font-size: 8px;
+    }
+
+  .card{
+    width: 40%;
+    min-height: fit-content;
+    margin-left: 50px;
+  }
+
+  .cart li {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .container-contact{
+    height: 49%;
+  }
+
+  .contact-section{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .image{
+    height: 280px;
+  }
+  
+  .logo{
+    width: 60px;
+    height: 40px;
+  }
+
+  .contact-contact{
+    height: 400px;
+  }
+
+  .contact-section p{
+    font-weight: 100;
+  }
+  
+  .footer {
+    height: 30%;
+  }
+}
