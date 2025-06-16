@@ -54,21 +54,16 @@
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+    justify-content: center;
+    width: 25px;
+    height: 20px;
+    position: relative;
 }
 
 .burger .line {
     width: 25px;
     height: 3px;
     background-color: black;
-}
-
-.burger {
-    display: none;
-    width: 25px;
-    height: 20px;
-    position: relative;
-    cursor: pointer;
-    justify-content: center;
 }
 
 .burger span {
@@ -148,5 +143,3 @@
         height: auto;
     }
 }
-
-

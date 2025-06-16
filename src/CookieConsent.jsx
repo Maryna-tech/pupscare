@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import Cookies from 'js-cookie';
+import React, { useEffect, useState } from 'react'
+import Cookies from 'js-cookie'
 
 const CookieConsent = () => {
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState (false);
 
   useEffect(() => {
-    const cookieConsent = Cookies.get('cookie_consent');
+    const cookieConsent = Cookies.get ('cookie_consent');
     if (!cookieConsent) {
       setVisible(true);
     }
@@ -19,16 +19,17 @@ const CookieConsent = () => {
   if (!visible) return null;
 
   return (
-    <div style={styles.container}>
-      <p style={styles.text}>
+    <div style = {styles.container}>
+      <p style = {styles.text}>
         We use cookies to improve your experience. By using our site, you agree to our use of cookies.
       </p>
-      <button style={styles.button} onClick={handleAccept}>Accept</button>
+      <button style = {styles.button} onClick = {handleAccept}>Accept</button>
     </div>
   );
 };
 
 const styles = {
+
   container: {
     position: 'fixed',
     bottom: 0,
@@ -41,10 +42,12 @@ const styles = {
     alignItems: 'center',
     zIndex: 1000,
   },
+
   text: {
     margin: 0,
     fontSize: '0.9rem',
   },
+
   button: {
     padding: '0.5rem 1rem',
     background: '#4CAF50',
@@ -55,4 +58,4 @@ const styles = {
   }
 };
 
-export default CookieConsent;
+export default CookieConsent

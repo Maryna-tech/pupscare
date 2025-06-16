@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 const FeedbackForm = () => {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState ({
     name: '',
     email: '',
     message: '',
   });
 
-  const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState (false);
 
   const handleChange = (e) => {
     setFormData({ 
@@ -34,38 +34,38 @@ const FeedbackForm = () => {
   };
 
   return (
-    <div style={styles.container}>
-      <h2 class="animate__animated animate__zoomIn animate__delay-2s" style={styles.feedback}>We value your feedback</h2>
+    <div style = {styles.container}>
+      <h2 class = "animate__animated animate__zoomIn animate__delay-2s" style = {styles.feedback}>We value your feedback</h2>
 
       {submitted ? (
-        <p style={styles.success}>Thank you for your feedback!</p>
+        <p style = {styles.success}>Thank you for your feedback!</p>
       ) : (
-        <form onSubmit={handleSubmit} style={styles.form}>
+        <form onSubmit = {handleSubmit} style = {styles.form}>
           <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            value={formData.name}
-            onChange={handleChange}
-            style={styles.input}
+            type = "text"
+            name = "name"
+            placeholder = "Your Name"
+            value = {formData.name}
+            onChange = {handleChange}
+            style = {styles.input}
           />
           <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            value={formData.email}
-            onChange={handleChange}
-            style={styles.input}
+            type = "email"
+            name = "email"
+            placeholder = "Your Email"
+            value = {formData.email}
+            onChange = {handleChange}
+            style = {styles.input}
           />
           <textarea
-            name="message"
-            placeholder="Your Feedback"
-            value={formData.message}
-            onChange={handleChange}
-            rows="5"
-            style={styles.textarea}
+            name = "message"
+            placeholder = "Your Feedback"
+            value = {formData.message}
+            onChange = {handleChange}
+            rows = "5"
+            style = {styles.textarea}
           />
-          <button type="submit" style={styles.button}>Submit</button>
+          <button type = "submit" style = {styles.button}>Submit</button>
         </form>
       )}
     </div>
@@ -82,23 +82,27 @@ const styles = {
     backgroundColor: '#fff',
     fontFamily: 'sans-serif',
   },
+
   feedback: {
     marginBottom: '1rem',
     textAlign: 'center',
     color:'#8F87F1',
     fontSize:'38px',
   },
+
   form: {
     display: 'flex',
     flexDirection: 'column',
     gap: '1rem',
   },
+
   input: {
     padding: '0.75rem',
     fontSize: '1rem',
     border: '1px solid #ccc',
     borderRadius: '5px',
   },
+
   textarea: {
     padding: '0.75rem',
     fontSize: '1rem',
@@ -106,6 +110,7 @@ const styles = {
     borderRadius: '5px',
     resize: 'vertical',
   },
+
   button: {
     padding: '0.75rem',
     fontSize: '1rem',
@@ -115,6 +120,7 @@ const styles = {
     borderRadius: '5px',
     cursor: 'pointer',
   },
+
   success: {
     textAlign: 'center',
     color: '#4CAF50',
@@ -122,4 +128,4 @@ const styles = {
   },
 };
 
-export default FeedbackForm;
+export default FeedbackForm

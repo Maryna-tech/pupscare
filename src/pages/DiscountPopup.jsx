@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react';
-import Swal from 'sweetalert2';
-import withReactContent from 'sweetalert2-react-content';
+import React, { useEffect } from 'react'
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
-const MySwal = withReactContent(Swal);
+const MySwal = withReactContent(Swal)
 
 const DiscountPopup = () => {
-  useEffect(() => {
+  useEffect ( () => {
     MySwal.fire({
       title: '🎉 Special Offer!',
-      html: '<b>Get 20% OFF</b> — Today Only!',
+      html: '<b> Get 20% OFF</b> — Today Only!',
       icon: 'success',
       showCancelButton: true,
       confirmButtonText: 'Claim Now',
@@ -27,4 +27,4 @@ const DiscountPopup = () => {
   return null; 
 };
 
-export default DiscountPopup;
+export default DiscountPopup

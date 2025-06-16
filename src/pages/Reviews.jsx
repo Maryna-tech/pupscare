@@ -1,6 +1,7 @@
-import React from "react";
+import React from "react"
 
 const reviews = [
+
   {
     id: 1,
     name: "Alice Johnson",
@@ -8,6 +9,7 @@ const reviews = [
     rating: 5,
     text: "Amazing grooming service! My dog looks fantastic and is so happy. Highly recommend!"
   },
+
   {
     id: 2,
     name: "Michael Smith",
@@ -15,6 +17,7 @@ const reviews = [
     rating: 4,
     text: "Great experience. The staff was very friendly and my dog loved the bath and brush."
   },
+
   {
     id: 3,
     name: "Emily Davis",
@@ -22,6 +25,7 @@ const reviews = [
     rating: 5,
     text: "Best grooming service ever! My pup smells so good and his coat is shining!"
   },
+
   {
     id: 4,
     name: "Sophie Baker",
@@ -29,32 +33,34 @@ const reviews = [
     rating: 5,
     text: "Amazing job everytime. Never been disappointed been using them over 5 years would not go anywhere else. "
   }
+
 ];
 
 const Reviews = () => {
+
   return (
-    <div className="reviews-container">
-      <h2 className="title">Customer Reviews</h2>
-      <div className="reviews-grid">
+    <div className = "reviews-container">
+      <h2 className = "title">Customer Reviews</h2>
+      <div className = "reviews-grid">
         {reviews.map((review) => (
-          <div key={review.id} className="review-card">
-            <img src={review.photo} alt={review.name} className="review-photo" />
+          <div key = {review.id} className = "review-card">
+            <img src = {review.photo} alt = {review.name} className = "review-photo" />
             <h3>{review.name}</h3>
             
-            <div className="stars">
+            <div className = "stars">
               {Array.from({ length: 5 }, (_, index) => (
-                <span key={index} className={index < review.rating ? "filled-star" : "empty-star"}>
+                <span key = {index} className = {index < review.rating ? "filled-star" : "empty-star"}>
                   ★
                 </span>
               ))}
             </div>
 
-            <p className="review-text">"{review.text}"</p>
+            <p className = "review-text">"{review.text}"</p>
           </div>
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Reviews;
+export default Reviews

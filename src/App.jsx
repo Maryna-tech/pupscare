@@ -1,4 +1,3 @@
-import React from "react"
 import Navbar from "./components/Navbar"
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from "./pages/Home"
@@ -14,22 +13,22 @@ import "./App.css"
 import 'animate.css';
 import Footer from "./components/Footer"
 
-
 function App () {
+
     return(
         <BrowserRouter>
             <Navbar/>
             <main>
                 <Routes>
-                    <Route path="/" element={<Home />}/>
-                    <Route path="/services" element={<Services />}/>
-                    <Route path="/shop" element={<Shop />}/>
-                    <Route path="/contact" element={<Contact Us />}/>
-                    <Route path="/booking" element={<Booking />}/>
-                    <Route path="/terms" element={<Terms/>}/>
-                    <Route path="/cookie" element={<Cookie/>}/>
-                    <Route path="/feedback" element={<FeedbackForm/>}/>
-                    <Route path="/discount-page" element={<DiscountPage/>}/>
+                    <Route path = "/" element = {<Home />}/>
+                    <Route path = "/services" element = {<Services />}/>
+                    <Route path = "/shop" element = {<Shop />}/>
+                    <Route path = "/contact" element = {<Contact Us />}/>
+                    <Route path = "/booking" element = {<Booking />}/>
+                    <Route path = "/terms" element = {<Terms/>}/>
+                    <Route path = "/cookie" element = {<Cookie/>}/>
+                    <Route path = "/feedback" element = {<FeedbackForm/>}/>
+                    <Route path = "/discount-page" element = {<DiscountPage/>}/>
                 </Routes>
                 </main>
                 <Footer/>
