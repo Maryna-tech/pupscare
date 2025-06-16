@@ -26,7 +26,6 @@ function Home() {
                 <button className = "booking"><a href = "http://localhost:3000/booking">Book an appointment</a></button>
                 <div className = "popup"><DiscountPopup /></div>
                 <button className = "discount-page"><span><a id = "link-discount" href = "/discount-page">Discount</a></span></button>
-                
                 <video class = "animate__animated animate__zoomIn animate__delay-4s" autoPlay muted loop>
                     <source src = {video} type = "video/mp4"/>
                 </video>

@@ -1,8 +1,33 @@
-# React + Vite
+# 🐶 Pupscare
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+**Pupscare** is a one-stop platform for dog owners to book reliable and high-quality services for their pets, including grooming, walking, boarding, and more. Our goal is to ensure every pup gets the care it deserves.
 
-Currently, two official plugins are available:
+## Features
+- ✂️ Professional dog grooming bookings
+- 🦴 Add-on services: nail trimming, de-shedding, etc.
+- 📅 Easy appointment scheduling
+- 📍 Location-based service availability
+- 👤 User profiles and pet details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Install and run with: npm install npm start
+Open http://localhost:3000 to view it in the browser.
+
+Whether you are working on a new feature or facing a doubt please feel free to ask me on this channel. I will be happy to help you out.
+
+## Tech Stack
+Frontend: React / Vue / HTML-CSS-JS (update based on what you used)
+Backend: Node.js / Express (if applicable)
+
+## Contributing
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+Thanks to Netlify for hosting all documentation.
+
+## License
+This project is licensed under the MIT License (see the LICENSE file for details).
+
+## Contact
+Created with 🐾 by Maryna
+GitHub: https://github.com/Maryna-tech
