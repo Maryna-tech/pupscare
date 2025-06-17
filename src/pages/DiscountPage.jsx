@@ -22,7 +22,7 @@ const DiscountPage = () => {
                 <strong>£{discountedPrice}</strong>{' '}
                 <span className="discount-badge">{service.discount}% OFF</span>
               </p>
-              <button className="discount-button"><a href = "http://localhost:3000/booking">Book Now</a></button>
+              <button className="discount-button"><a href = "/booking">Book Now</a></button>
             </div>
           );
         })}
