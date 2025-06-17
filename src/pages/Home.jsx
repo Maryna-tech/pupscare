@@ -23,7 +23,7 @@ function Home() {
                 <p className = "text">We offer everything what your dog needs because we care for your pet as much as you do. It's time for hair trimming and bath - getting furry friends fresh and fabulous. Start the day in style! Grooming prices vary, depending on breed, size of dog, coat condition and behaviour. Grooming service allow you to examine your dog's coat, teeth, eyes, ears and nails.</p>
                 <p className = "text">Give your doggy a professional grooming PupsCare.</p>
                 <p className = "text"><strong>BOOK NOW  <a href = "/services">SERVICES</a> !</strong></p>
-                <button className = "booking"><a href = "http://localhost:3000/booking">Book an appointment</a></button>
+                <button className = "booking"><a href = "/booking">Book an appointment</a></button>
                 <div className = "popup"><DiscountPopup /></div>
                 <button className = "discount-page"><span><a id = "link-discount" href = "/discount-page">Discount</a></span></button> 
                 <video class = "animate__animated animate__zoomIn animate__delay-4s" autoPlay muted loop>

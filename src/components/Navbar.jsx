@@ -1,8 +1,8 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import { navItems } from "./data"; // Import the data
-import ImageOne from "../assets/pupscare_logo.jpg";
-import "./Navbar.css";
+import { useState } from "react"
+import { Link } from "react-router-dom"
+import { navItems } from "./data" // Import the data
+import ImageOne from "../assets/pupscare_logo.jpg"
+import "./Navbar.css"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -37,5 +37,5 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar
 
