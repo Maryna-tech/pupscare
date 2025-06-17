@@ -993,6 +993,24 @@ background-color: pink;
   }
 }
 
+@media (max-width: 820px) {
+  header.p-1{
+    width: 770px;
+    height: 570px;
+  }
+
+  ul li{
+    width: 150px;
+    height: 48px;
+    padding: 5px;
+  }
+
+  img.object-cover.h-48.w-full.rounded{
+    width: 290px;
+    height: 340px;
+  }
+}
+
 @media (max-width: 768px) {
   header.p-1{
     width: 700px;
@@ -1120,21 +1138,22 @@ background-color: pink;
   }
   
   .footer {
-    height: 50%;
+    padding: 8px;
   }
 }
 
 @media (max-width: 430px) {
   header.p-1{
-    width: 320px;
+    width: 390px;
     height: 350px;
-    margin-left: 1px;
+    margin-left: 2px;
   }
 
   ul li{
-    width: 140px;
+    width: 120px;
     height: 30px;
     font-size: 10px;
+    padding: 6px;
   }
 
   .discount-page{
@@ -1143,6 +1162,11 @@ background-color: pink;
 
   video{
     height: 250px;
+  }
+
+  img.object-cover.h-48.w-full.rounded{
+    width: 150px;
+    height: 180px;
   }
 
   .card_service{
@@ -1252,12 +1276,12 @@ background-color: pink;
   }
 
   .image{
-    height: 280px;
+    height: 610px;
   }
   
-  .logo{
-    width: 60px;
-    height: 40px;
+  img.logo{
+    width: auto;
+    height: 50px;
   }
 
   .contact-contact{
@@ -1267,8 +1291,13 @@ background-color: pink;
   .contact-section p{
     font-weight: 100;
   }
+
+  div.form-container{
+    width: 200px;
+    height: auto;
+  }
   
   .footer {
-    height: 30%;
+    padding: 6px;
   }
 }
