@@ -1,7 +1,7 @@
 import Image from "../assets/pupscare_logo.jpg"
 import ContactForm from './ContactForm'
 
-function ContactUs() {
+function Contact() {
     return (<div className = "p-4 container">
         <header className = "p-4">
             <h2 class ="animate__animated animate__fadeInLeftBig">Contact Us</h2>
@@ -32,4 +32,4 @@ function ContactUs() {
     )
 }
 
-export default ContactUs
+export default Contact
