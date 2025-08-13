@@ -568,7 +568,7 @@ input:focus, select:focus {
   background-image: url("assets/dog-shopping.jpeg");
   background-size: cover;
   background-repeat: no-repeat center center fixed;
-  height:1100px;
+  height: 1150px;
   padding: 10px;
 }
 
@@ -1012,6 +1012,12 @@ background-color: pink;
 }
 
 @media (max-width: 768px) {
+  img.logo{
+    width: 50px;
+    height: 50px;
+
+  }
+
   header.p-1{
     width: 700px;
     height: 570px;

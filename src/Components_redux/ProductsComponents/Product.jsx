@@ -8,7 +8,7 @@ const Product = ({product}) => {
     const dispatch = useDispatch ()
     return (
     <div className="product_cart" >
-        <img src={`./${product.img}.jpg`} alt="product" />
+        <img src= {product.image} alt="product"/>
         <h3>{product.name}</h3>
         <h5>£ {product.price}</h5>
 

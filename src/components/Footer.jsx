@@ -10,20 +10,20 @@ import ImageMastercard from "../assets/mastercard.svg"
 const Footer = () => {
     
     return (<footer className = "footer-container">
-        <div class = "footer">
-            <div class = "footer__main">
-                <div class = "p1-container">
-                    <div class = "footer__main-icons">
+        <div className = "footer">
+            <div className = "footer__main">
+                <div className = "p1-container">
+                    <div className = "footer__main-icons">
                         <span className = "footer-icon"><a href = "https://www.instagram.com/"><img src = {instagram} className = "icon" width = "40px"/></a></span>
                         <span className = "footer-icon"><a href = "https://en-gb.facebook.com/"><img src = {facebook} className = "icon" width = "40px"/></a></span>
                         <span className = "footer-icon"><a href = "https://www.whatsapp.com"><img src = {whatsapp} className = "icon" width = "40px"/></a></span>
                     </div>
-                    <div class = "footer__main-links">
+                    <div className = "footer__main-links">
                         <span><a id = "footer-link-terms-and-conditions" href = "/terms">Terms &amp; Conditions</a></span> | 
                         <span><a className = "feedback-btn" href = "/feedback"> Feedback </a></span>
                     </div>
-                    <div class = "footer__main-info">
-                        <div class = "footer-column">
+                    <div className = "footer__main-info">
+                        <div className = "footer-column">
                             <div className = "footer-cookie-notice">
                                 <p>By using this site, you agree we can set and use cookies. For more details of these cookies and how to disable them, see our <a href = "/cookie">cookie policy</a>.</p>
                             </div>

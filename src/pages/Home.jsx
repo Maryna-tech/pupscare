@@ -43,7 +43,7 @@ function Home() {
                 <Carousel/>
             </div>
             <div>
-                <span><h5 class = "animate_animated animate__heartBeat">🐕🐩Stay Connected</h5></span>
+                <span><h5 className = "animate_animated animate__heartBeat">🐕🐩Stay Connected</h5></span>
             </div>
         </main>
     </div>
